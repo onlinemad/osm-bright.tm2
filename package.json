@@ -1,5 +1,5 @@
 {
-    "name": "osm-bright-style",
+    "name": "osm-rpoi-bright-style",
     "version": "2.1.2",
     "description": "A CartoCSS map style for Kartotherian tile service",
     "main": "./index.js",
