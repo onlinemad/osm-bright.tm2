@@ -248,6 +248,13 @@
     [zoom<=16][scalerank>=3] {
       marker-file:url('icon/[maki]-12.svg');
     }
+    [maki='circle'] {
+      marker-opacity: 0;
+      [zoom>=18] {
+        marker-opacity: 1;
+      }
+      marker-file:url('icon/[maki]-12.svg');
+    }
   }
   ::label {
     text-name: @name;
@@ -343,4 +350,3 @@
   [zoom=19] { text-size: 10; }
   [zoom>=20] { text-size: 12; }
 }
-
